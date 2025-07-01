@@ -1,4 +1,4 @@
-p,header,footer{
+header,aside,main,footer{
     background-color:lab(91% 0 -0.01) ;
     text-align: center;
     margin: 5px;    
