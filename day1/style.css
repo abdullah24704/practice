@@ -1,0 +1,48 @@
+header, footer, nav, aside, main {
+  background-color: lab(91% 0 -0.01);
+  text-align: center;
+  margin: 5px;
+}
+
+.main-heading {
+  padding: 20px;
+}
+
+.menu {
+  padding: 10px;
+}
+ 
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.left-content,
+.right-content,
+.main-content {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  padding: 80px 15px;
+  margin: 2px;
+}
+
+.left-content {
+  margin-left: 5px;
+}
+
+.right-content {
+  margin-right: 5px;
+}
+
+.main-content {
+  width: 800px;
+  margin: 2px;
+}
+
+.footer {
+  margin-top: 2px;
+  padding: 10px;
+}
