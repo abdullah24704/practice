@@ -9,7 +9,6 @@ body {
   width: auto;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     text-align: center;
  
   }
@@ -31,9 +30,9 @@ body {
 }
 
 .logo {
-    width: 50%;
+    width: 60%;
    height: 2%;
-    padding: 5% 0 0 14%;
+    padding: 3% 0 0 14%;
 }
 
 .heading {
@@ -48,10 +47,12 @@ body {
 }
 
 .para {
-    width: 60%;
-    font-size: 170%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    font-size: 160%;
     margin: 0 auto;
-    padding-left: 10%;
+    padding-top: 1%;
+    padding-left: 9%;
     color: gray;
     text-align: center;
 }
@@ -64,40 +65,43 @@ body {
 
 .play_store img,
 .app_store img {
-    padding-top: 8%;
+    padding-top: 12%;
     width: 30%;
   }
 .sec_screen{
-  padding-top: 8%;
-  width: 40%;
+  padding-top: 1.2%;
+  width: 44%;
 }
 .sec_screen img {
     width: 100%;
-    height: auto;
+    height: 200%;
     display: flex;
-    padding-left: 10%;
+    padding-left: 8%;
+    height: auto;
     
 }
 .heading2,
 .heading3{
-  padding-top: 4.5rem;
+  font-weight: normal;
+  padding-top: 11rem;
   padding-left: 40%;
   width: 10%;
   justify-content: flex-end;
+  align-items: flex-start;
   font-size: 200%;
 }
 .para2{
+  padding-top: 4%;
   width: 100%;
   padding-left: 10%;
-  font-size: 250%;
-
+  font-size: 200%;
+  font-weight: lighter;
 }
 
 .heading3 {
-    padding: 1.5rem 0 1rem 8rem;
+    padding: 11rem 0 1rem 8rem;
     font-weight: bold;
     width: 100%;
-    text-align: center;
 }
 
 .para3 {
@@ -113,7 +117,7 @@ body {
     width: 60%;
     padding-top: 0rem;
     display: flex;
-    margin-left: 32%;
+    margin-left: 26%;
 }
 
 .section {
@@ -130,7 +134,7 @@ body {
 }
 
 .section_text {
-  padding-top: 9%;
+  padding-top: 8%;
     width: 100%;
 }
 
@@ -159,12 +163,18 @@ body {
     text-align: center;
     padding-top: 5%;
     background: #f1f1f1;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+.para5{
+  font-size: 150%;
+}
+.para6{
+  font-size: 110%;
+}
+.footer p {
+    margin-bottom: 1rem;
 }
 
-.footer p {
-    margin: 1rem 0;
-}
 
 .footer a {
     color: #007bff;
@@ -179,5 +189,6 @@ body {
 }
 
 .store-img {
+  padding-top: 1%;
     width: 15%;
 }
