@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-rows: repeat(7,1fr);
+    grid-template-columns: repeat(4,1fr);
+    border-left: 2rem solid gray;
+    border-right: 2rem solid gray;
+}
+.header{
+    display: flex;
+}
+.header img{
+    grid-column: 1 / 3;
+    width: 50VW;
+}
+.text{
+    grid-column: 3 / span 2;
+    font-weight: 700;
+}
+.heading{
+    padding-top: 3%;
+    font-size: 1.95rem;
+    color: maroon;
+    text-decoration:underline;
+    text-decoration-thickness: 15% ;
+    text-underline-offset: 20%;
+    text-decoration-color: grey ;
+}
+.num{
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+.para{
+    font-size: 1.5rem;
+    color: rgb(96, 87, 87);
+    padding-top: 0.5%;
+}
+.nav{
+    grid-area: 2/1 / 2/5;
+    display: flex;
+    justify-content: flex-end;
+    background: maroon;
+    padding-right: 2.5%;
+    height: 40%;
+    align-items: center;
+}
+.nav a{
+    font-size: 1.4rem;
+    color: white;
+    padding: 1.7%;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav a:hover{
+    background-color: grey;
+    font-size: 1.5rem ;
+    transition: 0.15s;
+}
