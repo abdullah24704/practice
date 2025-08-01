@@ -39,6 +39,29 @@ body{
     color: rgb(96, 87, 87);
     padding-top: 0.5%;
 }
+@media screen and (min-width:768px) and (max-width:1024px){
+    .header img{
+        width: 45vw;
+        height: 18vh;
+    }
+    .text{
+        font-weight: 600;
+    }
+    .heading{
+        padding-top: 1.5%;
+        font-size: 1.7rem;
+        text-decoration-thickness: 12% ;
+    }
+    .num{
+        font-size: 3rem;
+        line-height: 1.1;
+        font-weight: 800;
+    }
+    .para{
+        font-size: 1.28rem;
+        padding-top:0 ;
+    }
+}
 .nav{
     display: flex;
     justify-content: flex-end;
@@ -58,6 +81,17 @@ body{
     background-color: grey;
     font-size: 1.5rem ;
     transition: 0.15s;
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .nav{
+        height: 7vh;
+    }
+    .nav a{
+        font-size: 1.2rem;
+    }
+    .nav a:hover{
+        font-size: 1.3rem;
+    }
 }
 .left{
     padding: 3% 0 0 3%;
@@ -79,9 +113,7 @@ body{
     left: 1.4rem;
     box-shadow: 0 0 10px 2px gray;
 }
-.head{
-    display: flex;
-}
+
 .right_head{
     background: rgb(153, 0, 0);
     color: white;
@@ -124,12 +156,12 @@ input{
     margin-left: 1%;
 }
 .form-row img{
-   width: 39%;
-   height: 15%;
-   position: absolute;
-   bottom: 12rem;
-   right: 2.5rem;
-   transform: rotate(11deg);
+    width: 39%;
+    height: 15%;
+    position: absolute;
+    bottom: 12rem;
+    right: 2.5rem;
+    transform: rotate(11deg);
 }
 textarea{
     resize: none;
@@ -146,7 +178,7 @@ textarea::placeholder{
 }
 .right-bottom{
     display: flex;
-
+    
 }
 .right-bottom p{
     font-style: italic;
@@ -167,6 +199,80 @@ button{
 button img{
     width: 0.7rem;
     padding-left: 2%;
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+ .center{
+    flex-direction: column;
+ }
+    .left img{
+        width: 87vw;
+        height: auto;
+    }
+    .right{
+        width: 87vw;
+        height: auto;
+        top: 1.5rem;
+        left: 1.7rem;
+    }
+    .right_head{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    .about_head{
+        font-size: 2rem;
+    }
+    .right .para{
+        padding-left: 10%;
+        padding-bottom: 1.2%;
+        width: 80vw;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    b{
+        font-size: 2rem;
+    }
+    label{
+        font-size: 1.3rem;
+    }
+    .form-row{
+        padding: 2% 10% 0;
+    }
+    .phone{
+        padding-left: 9%;
+    }
+    input{
+        padding: 1.4%;
+        width: 25vw;
+        margin-left: 2%;
+    }
+    .form-row img{
+        width: 30vw;
+        bottom: 17rem;
+        right: 4.5rem;
+        transform: rotate(16deg);
+    }
+    textarea{
+        width: 50vw;
+        height: 14vh;
+        margin: 5% 7%;
+    }
+    textarea::placeholder{
+        font-size: 1.3rem;
+        padding: 0.5% 2%;
+    }
+    .right-bottom p{
+        font-size: 1.4rem;
+        padding-left: 13%;
+        padding-right: 4%;
+    }
+    button{
+        width: auto;
+        margin-bottom: 3%;
+    }
+    button img{
+        width: 1.1rem;
+    }
+
 }
 .grid_2x3{
     display: grid;
@@ -293,6 +399,105 @@ aside      .heading,
 }
 .hr_shadow{
 width: 91.8vw;
+margin-top: 7%;
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .grid_2x2{
+        display: grid;
+        grid-template-rows: repeat(2,auto) ;
+        grid-template-columns: repeat(2,45vw);
+    }
+    .container{
+        padding-top: 5% ;
+        padding-left: 1.3%;
+    }
+
+    .box_1{
+        grid-row: 1;
+        grid-column: 1;
+        border-bottom: 2px solid rgba(46, 46, 46, 0.159);
+    }
+    .container   .heading,
+    aside        .heading,
+    .right_logos .heading{
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .container .dui_head{
+        font-size: 1.55rem;
+        padding-bottom: 6%;
+    }
+    .container .para{
+        font-size: 1.3rem;
+        width: 25vw;
+        padding-bottom: 6%;
+    }
+    .dui-img img{
+        left: 1.5rem;
+        width: 10.5vw;
+    }
+    .container button{
+        width: 16vw;
+        font-size: 1.3rem;
+    }
+    .box_2{
+        grid-row: 2;
+        grid-column: 1;
+        border-right: 2px solid rgba(46, 46, 46, 0.159) ;
+        border-bottom:none ;
+        padding-top: 5%;
+    }
+    .box_2 .para{
+        width: 20vw;
+    }
+    .pic1{
+        left: 1rem;
+        width: 19vw;
+    }
+    .box_2 button{
+        bottom: 0.1rem;
+        right: 1rem;
+    }
+    .container button img{
+        width: 0.9rem;
+    }
+    .box_3{
+        grid-row: 2;
+        grid-column: 2;
+        padding-top: 5%;
+    }
+    .box_3 .para{
+        width: 27vw;
+    }
+    .order_icon{
+        width: 15vw;
+        bottom: 1rem;
+        left: -0.5rem;
+    }
+    .box_3 button{
+        bottom: 1rem;
+        left: 2rem;
+    }
+    .box_4{
+        grid-row: 1;
+        grid-column: 2;
+        border-bottom: 2px solid rgba(46, 46, 46, 0.159) ;        
+        border-left: none;
+    }
+    .credentials_img img{
+        width: 14vw;
+    }
+    .box_4 .para{
+        width: 34vw;
+    }
+    .box_4 button{
+        top: -0.6rem;
+    }
+    .hr_shadow{
+        width: 91vw;
+        margin-top: 5%;
+    }
 }
 .areas{
     padding-left: 3%;
@@ -385,6 +590,14 @@ button .bullet_red{
     font-size: 1rem;
     padding: 1%;
 }
+@media screen and (min-width:768px) and (max-width:1024px){
+    aside{
+        flex-wrap: wrap;
+    }
+    .pagetitle{
+        justify-self: flex-end;
+    }
+}    
 ul{
     list-style-type: none;
     font-size: 2rem;
